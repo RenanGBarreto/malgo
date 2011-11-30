@@ -1,0 +1,188 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="406" max="32767" attributes="0"/>
+                  <Component id="jSeparator2" alignment="0" pref="406" max="32767" attributes="0"/>
+                  <Component id="jSeparator1" alignment="0" pref="406" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="195" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="tfFalta" pref="207" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tfC3" alignment="0" pref="176" max="32767" attributes="0"/>
+                          <Component id="tfC2" alignment="0" pref="176" max="32767" attributes="0"/>
+                          <Component id="tfC1" alignment="0" pref="176" max="32767" attributes="0"/>
+                          <Component id="tfC0" alignment="0" pref="176" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfFalta" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfC0" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tfC1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tfC2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfC3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="86" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Verdana" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Faltas de P&#xe1;gina:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfFalta">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Verdana" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="cc" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+            <EmptyBorder/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Classe 0 (N&#xe3;o Referenciada e N&#xe3;o Modificada):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfC0">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Classe 1 (N&#xe3;o Refer&#xea;nciada e Modificada):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfC1">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Classe 2 (Refer&#xea;nciada e N&#xe3;o Modificada):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfC2">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Classe 3 (Refer&#xea;nciada e Modificada):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfC3">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="desc">
+          <Properties>
+            <Property name="contentType" type="java.lang.String" value="text/html"/>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Verdana" size="11" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xd;&#xa;  &lt;head&gt;&#xd;&#xa;&#xd;&#xa;  &lt;/head&gt;&#xd;&#xa;  &lt;body style=&quot;font-family:Verdana, Arial; margin:10px&quot;&gt;&#xd;&#xa;&#xa;      &#xd;&#xa;&lt;h3 style=&quot;margin-top:0px&quot; &gt;Algoritmo de substitui&#xe7;&#xe3;o de p&#xe1;gina N&#xc3;O USADA RECENTEMENTE (NUR)&lt;/h3&gt;&#xa;    &lt;p style=&quot;text-align: justify&quot;&gt;&#xa;&#xa;A maioria dos computadores com mem&#xf3;ria virtual tem dois bits de status &#x2013; o bit referenciada (R) e o bit modificada (M) &#x2013; associados a cada p&#xe1;gina virtual, que permitem que o sistema operacional saiba quais p&#xe1;ginas f&#xed;sicas est&#xe3;o sendo usadas e quais n&#xe3;o est&#xe3;o. O bit R &#xe9; colocado em 1 sempre que a p&#xe1;gina &#xe9; refereciada (lida ou escrita). O bit M &#xe9; colocado em 1 sempre que se escreve na p&#xe1;gina (isto &#xe9;, a p&#xe1;gina &#xe9; modificada). Os bits est&#xe3;o contidos em cada entrada da tabela de p&#xe1;ginas. &#xc9; importante perceber que estes bits devem ser atualizados em todas as refer&#xea;ncias &#xe0; mem&#xf3;ria, de modo que &#xe9; essencial que esta atualiza&#xe7;&#xe3;o se d&#xea; por hardware. Uma vez que um bit &#xe9; colocado em 1 por hardware, ele permanece em 1 at&#xe9; o sistema operacional coloca-lo em 0 por software.&#xa;&lt;/p&gt;&#xa;&#xa;&lt;p style=&quot;text-align: justify&quot;&gt;&#xa;O algoritmo NUR, &lt;b&gt;remove aleatoriamente uma p&#xe1;gina da classe de ordem mais baixa&lt;/b&gt; que n&#xe3;o esteja vazia. Est&#xe1; impl&#xed;cito neste algoritmo que &#xe9; melhor remover uma p&#xe1;gina modificada mas n&#xe3;o referenciada a pelo menos uma interrup&#xe7;&#xe3;o do rel&#xf3;gio do que uma p&#xe1;gina n&#xe3;o modificada que est&#xe1; sendo intensamente referenciada. &lt;b&gt;A principal vantagem do algoritmo NUR &#xe9; ser f&#xe1;cil de entender e de implementar, e, al&#xe9;m disso, fornece um desempenho que, apesar de n&#xe3;o ser &#xf3;timo, pode ser adequado.&lt;/b&gt;&#xa;&#xa;&#xa;&#xa;    &lt;/p&gt;&#xd;&#xa;  &lt;/body&gt;&#xd;&#xa;&lt;/html&gt;&#xd;&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o do Algoritmo NUR:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
