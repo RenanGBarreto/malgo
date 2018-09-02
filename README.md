@@ -15,7 +15,7 @@ A maioria dos computadores com memória virtual tem dois bits de status – o bi
 
 O algoritmo NUR, remove aleatoriamente uma página da classe de ordem mais baixa que não esteja vazia. Está implícito neste algoritmo que é melhor remover uma página modificada mas não referenciada a pelo menos uma interrupção do relógio do que uma página não modificada que está sendo intensamente referenciada. A principal vantagem do algoritmo NUR é ser fácil de entender e de implementar, e, além disso, fornece um desempenho que, apesar de não ser ótimo, pode ser adequado.
 
-### FIFO (First In First Out)
+### FIFO (FIRST IN FIRST OUT)
 
 O algoritmo FIFO, é um algoritmo de baixo custo. O sistema operacional mantém uma lista de todas as páginas atuais na memória, com a página mais antiga na cabeça da lista e a página que chegou mais recentemente situada no final desta lista. Na ocorrência de uma falta de página, a primeira página da lista é removida e a nova página é adicionada no final da lista.
 
