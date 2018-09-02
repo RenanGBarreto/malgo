@@ -42,7 +42,7 @@ Para usar o Malgo você precisará ter um computador pelo menos as caracteristic
 
 ## LICENSE
 
-Copyright (C) 2012 Renan Gomes Barreto
+Copyright (C) 2011-2012 Renan Gomes Barreto
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
