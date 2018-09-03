@@ -2,6 +2,12 @@
 
 # Malgo: Uma ferramenta para o ensino dos algoritmos de substituição de página / Malgo: A tool for teaching memory page replacement algorithms
 
+Uma ferramenta que permite a visualização da execução de algoritmos de substituição de páginas de memória pelo sistema operacional. O software pode ser utilizado em para o ensino da disciplina de sistemas operacionais, facilitando o entendimento dos algoritmos.
+
+---
+
+A software that allows the visualization of the execution of algorithms for replacing memory pages by the operating system. The software can be used in for teaching the discipline of operating systems, facilitating the understanding of the algorithms.
+
 ## SCREENSHOTS
 <p align="center">
   <img alt="Malgo Software Demo" src="https://github.com/RenanGBarreto/malgo/raw/master/screenshots/malgo-demo.gif"> 
